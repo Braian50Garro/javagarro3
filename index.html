@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini salada</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Mini salada</h1>
+
+    <div id="productos">
+        <h2>Productos:</h2>
+        <ul>
+            <li>Bolson de remeras (talles m al xxl) - $30.000 <button onclick="agregarAlCarrito('Bolson de remeras ', 30000)">Agregar al carrito</button></li>
+            <li>Bolson de pantalones (talles del 48 al 60)- $60.000 <button onclick="agregarAlCarrito('Bolson de pantalones ', 60000 )">Agregar al carrito</button></li>
+            <li>Bolson de buzos (talles m al xxl)- $80.000 <button onclick="agregarAlCarrito('Bolson de Buzos ', 80000)">Agregar al carrito</button></li>
+            <li>Bolson de medias (largas y cortas)- $15.000 <button onclick="agregarAlCarrito('Bolson de medias ', 15000)">Agregar al carrito</button></li>
+        </ul>
+    </div>
+
+    <div id="carrito">
+        <h2>Carrito:</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total-carrito">0</span></p>
+    </div>
+
+</body>
+</html>
